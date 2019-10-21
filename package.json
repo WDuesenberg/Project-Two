@@ -1,0 +1,27 @@
+{
+  "name": "projecttwo",
+  "version": "1.0.0",
+  "description": "crypto bot thing",
+  "main": "server.js",
+  "dependencies": {
+    "express-handlebars": "^3.1.0",
+    "express": "^4.17.1",
+    "mysql2": "^1.7.0",
+    "sequelize": "^5.21.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/J-danger/ProjectTwo.git"
+  },
+  "author": "steve, caleb, wyatt, james",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/J-danger/ProjectTwo/issues"
+  },
+  "homepage": "https://github.com/J-danger/ProjectTwo#readme"
+}
