@@ -1,4 +1,4 @@
-body {
+  body {
     background-color: #454242;
 }
 
@@ -8,4 +8,87 @@ body {
     margin-right: auto;
     width: 20em
   }
+  /* input[type=text] {
+    width: 230px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+  }
   
+  input[type=text]:focus {
+    width: 50%;
+  } */
+  .relative {
+    position: relative;
+    left: 550px;
+    top: 50px;
+    border: 3px solid #73AD21;
+  }
+
+  .btn{
+    position: relative;
+    left: 550px;
+    top: 50px;
+    background-color: rgb(80, 252, 46); /* Green */
+    border: none;
+    color: black;
+    border-radius: 4px;
+    /* padding: 15px 32px; */
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+  .history {
+    position: relative;
+    left: 100px;
+    top: 0px;
+    opacity: 0; 
+    background: blue;
+    height: 300px;
+    width: 200px; 
+    animation: opacityOn 5s normal forwards;
+    animation-delay: 5s;
+}
+
+@keyframes opacityOn {
+ 
+    100% {
+        opacity: 1;
+    }
+}
+.pricesGraph {
+    position: relative;
+    left: 875px;
+    bottom: 400px;
+    opacity: 0; 
+    background: red;
+    height: 450px;
+    width: 400px; 
+    animation: opacityOn 5s normal forwards;
+    animation-delay: 5s;
+}
+
+@keyframes opacityOn {
+ 
+    100% {
+        opacity: 1;
+    }
+}
+.timerRefresh {
+    position: relative;
+    left: 200px;
+    bottom: 400px;
+    opacity: 0; 
+    background: green;
+    height: 100px;
+    width: 600px; 
+    animation: opacityOn 5s normal forwards;
+    animation-delay: 5s;
+}
+
+@keyframes opacityOn {
+ 
+    100% {
+        opacity: 1;
+    }
+}
