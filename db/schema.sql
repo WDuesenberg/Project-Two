@@ -4,8 +4,10 @@ CREATE DATABASE crypto_db;
 USE crypto_db;
 
 CREATE TABLE price (
-    id int AUTO_INCREMENT NOT NULL,
-  coin_pair varchar(255) NOT NULL,    
-    PRIMARY KEY (id)
+  exchange_name varchar(255) NOT NULL,
+  coin_pair varchar(255) NOT NULL,
+  price INTEGER NOT NULL,
+  lastDate varchar(255) NOT NULL,    
+    PRIMARY KEY (price)
 );
 

@@ -1,2 +1,2 @@
-INSERT INTO burgers (coin_pair)
-VALUES ("BTCUSD")
+-- INSERT INTO burgers (coin_pair)
+-- VALUES ("BTCUSD")

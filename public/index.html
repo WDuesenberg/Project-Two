@@ -11,16 +11,124 @@
 
 </head>
 <body>
-    <img class="center" src="./images/cryptocrocFinal.png" alt="logo">
-    <form>
-    <input type="text" name="search" placeholder="Search Crypto Prices" class="relative">
-    <input type="button" value="Submit" class="btn">
-</form>
-    <div class="history"></div>
-    <div class="pricesGraph"></div>
-    <div class="timerRefresh"></div>
+        <img class="center" src="./images/cryptocrocFinal.png" alt="logo">
+       
+        <form>
+            <input type="text" name="search" placeholder="Search Crypto Prices" class="relative">
+            <input type="button" value="Submit" class="btn">
+        </form>
+    
+        <div class="nav-container">
+            <div class="nav-bar">
+                <a href="#first-item"><div class="nav-item">
+                    First Item
+                    <div class="nav-dropdown">
+                        <a href="#first-dropdown"><div class="dropdown-item">this is an item</div></a>
+                        <a href="#second-dropdown"><div class="dropdown-item">this is another</div></a>
+                    </div>
+                </div></a>
+                <a href="#second-item"><div class="nav-item">
+                    Second Item
+                    <div class="nav-dropdown">
+                        <a href="#third-dropdown"><div class="dropdown-item">different item</div></a>
+                        <a href="#fourth-dropdown"><div class="dropdown-item">this is another</div></a>                
+                    </div>
+                </div></a>
+                <a href="#third-item"><div class="nav-item">
+                    Crypto Tracker
+                    <div class="nav-dropdown">
+                        <a href="#fifth-dropdown"><div class="dropdown-item">Tracker</div></a>
+                        <a href="#sixth-drropdown"><div class="dropdown-item">one more</div></a>
+                    </div>
+                </div></a>
+            </div>
+        </div>
+    
+        <section>
+            <h1>Crypto Watch</h1>
+            <div class="tbl-header">
+                <table cellpadding="0" cellspacing="0" cellborder="0" id="crypto-table">
+                    <thead>
+                        <tr>
+                            <th scope="col">Exchange</th>
+                            <th scope="col">Coin</th>
+                            <th scope="col">Price</th>
+                            <th scope="col">Time</th>
+                        </tr>
+                    </thead>
+                </table>
+            </div>
+            <div class="tbl-content">
+                <table cellpadding="0" cellspacing="0" cellborder="0">
+                    <tbody>
+                        <tr>
+                            <td id="#exchange-name">""</td>
+                            <td id="#coin-pair">""</td>
+                            <td id="#price">""</td> <!--$8,201.79-->
+                            <td id="#lastTime">""</td>
+                        </tr>
+                    <!-- </tbody>
+                </table>
+            </div> -->
+            <!-- <div class="tbl-content">
+                <table cellpadding="0" cellspacing="0" cellborder="0"> -->
+                    <!-- <tbody> -->
+                        <tr>
+                            <td id="#echange-name">""</td>
+                            <td id="#coin-pair">""</td>
+                            <td id="#price">""</td>
+                            <td id="#lastTime">""</td>                            
+                        </tr>
+                    <!-- </tbody> -->
+                <!-- </table>
+            </div> -->
+            <!-- <div class="tbl-content">
+                <table cellpadding="0" cellspacing="0" cellborder="0"> -->
+                    <!-- <tbody> -->
+                        <tr>
+                            <td id="#echange-name">""</td>
+                            <td id="#coin-pair">""</td>
+                            <td id="#price">""</td>
+                            <td id="#lastTime">""</td>
+                        </tr>
+                    <!-- </tbody>
+                </table>
+            </div> -->
+            <!-- <div class="tbl-content">
+                <table cellpadding="0" cellspacing="0" cellborder="0"> -->
+                    <!-- <tbody> -->
+                        <tr>
+                            <td id="#echange-name">""</td>
+                            <td id="#coin-pair">""</td>
+                            <td id="#price">""</td>
+                            <td id="#lastTime">""</td>
+                        </tr>
+                    <!-- </tbody>
+                </table>
+            </div> -->
+            <!-- <div class="tbl-content">
+                <table cellpadding="0" cellspacing="0" cellborder="0"> -->
+                    <!-- <tbody> -->
+                        <tr>
+                            <td id="#echange-name">""</td>
+                            <td id="#coin-pair">""</td>
+                            <td id="#price">""</td>
+                            <td id="#lastTime">""</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section> 
 
- 
-    <script src="./assets/javascript/ajax.js"></script>
-</body>
-</html>
+        
+        <!-- <div class="history"></div>
+        <div class="pricesGraph"></div>
+        <div class="timerRefresh"></div> -->
+    
+       
+    
+     
+        <script src="./assets/javascript/ajax.js"></script>
+        
+    </body>
+    </html>
